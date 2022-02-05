@@ -1,24 +1,36 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
+<div class="container d-flex justify-content-center" style="flex-direction: column;">
     <div class="row d-flex justify-content-center">
-        <div class="d-flex col-4 p-5" style="align-items: center; justify-content: center">
-            <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/ikqra03zdnggljdu5vv0" style="height: 160px;width: 160px;" class="rounded-circle">
+        <div class="d-flex pt-3 col-3" style="align-items: flex-start; justify-content: center;">
+            <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/ikqra03zdnggljdu5vv0" style="height: 150px;width: 150px;" class="rounded-circle">
         </div>
-        <div class="col-8 pt-5 w-50">
+        <div class="col-9 pt-3" style="width: 40%;">
             <div>
-                <h1>freeCodeCamp</h1>
+                <h2>freecodecamp</h2>
             </div>
             <div class="d-flex">
-                <div class="pe-5"><strong>153</strong> posts</div>
-                <div class="pe-5"><strong>23k</strong> followers</div>
-                <div class="pe-5"><strong>212</strong> following</div>
+                <div class="pe-5"><strong>441</strong> posts</div>
+                <div class="pe-5"><strong>90k</strong> followers</div>
+                <div class="pe-5"><strong>339</strong> following</div>
             </div>
             <div class="pt-4 fw-bold">freeCodeCamp.com</div>
             <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, enim sapiente aliquam id, autem iusto maxime temporibus maiores ex magni.</div>
             <div><a href="#">www.freecodecamp.org</a></div>
         </div>
     </div>
+    <div class="row pt-5" style="margin: 0 auto;">
+        <div class="col-md-4 p-3">
+            <img src="https://avatars.githubusercontent.com/u/38059087?v=4" style="height: 300px; width: 300px;">
+        </div>
+        <div class="col-md-4 p-3">
+            <img src="https://avatars.githubusercontent.com/u/38059087?v=4" style="height: 300px; width: 300px;">
+        </div>
+        <div class="col-md-4 p-3">
+            <img src="https://avatars.githubusercontent.com/u/38059087?v=4" style="height: 300px; width: 300px;">
+        </div>
+    </div>
 </div>
+
 @endsection
