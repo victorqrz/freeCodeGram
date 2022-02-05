@@ -3,12 +3,12 @@
 @section('content')
 <div class="container d-flex justify-content-center" style="flex-direction: column;">
     <div class="row d-flex justify-content-center">
-        <div class="d-flex pt-3 col-3" style="align-items: flex-start; justify-content: center;">
-            <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/ikqra03zdnggljdu5vv0" style="height: 150px;width: 150px;" class="rounded-circle">
+        <div class="d-flex pt-3 col-2" style="align-items: flex-start; justify-content: flex-start;margin-right: 50px;">
+            <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/ikqra03zdnggljdu5vv0" style="height: 140px;width: 140px;" class="rounded-circle">
         </div>
-        <div class="col-9 pt-3" style="width: 40%;">
+        <div class="col-10 pt-3" style="width: 40%;">
             <div>
-                <h2>freecodecamp</h2>
+                <h2>{{ $user->username }}</h2>
             </div>
             <div class="d-flex">
                 <div class="pe-5"><strong>441</strong> posts</div>
