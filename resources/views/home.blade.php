@@ -15,9 +15,9 @@
                 <div class="pe-5"><strong>90k</strong> followers</div>
                 <div class="pe-5"><strong>339</strong> following</div>
             </div>
-            <div class="pt-4 fw-bold">freeCodeCamp.com</div>
-            <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, enim sapiente aliquam id, autem iusto maxime temporibus maiores ex magni.</div>
-            <div><a href="#">www.freecodecamp.org</a></div>
+            <div class="pt-4 fw-bold">{{ $user->profile->title }}</div>
+            <div>{{ $user->profile->description }}</div>
+            <div><a href="#">{{ $user->profile->url }}</a></div>
         </div>
     </div>
     <div class="row pt-5" style="margin: 0 auto;">
